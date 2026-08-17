@@ -1,0 +1,428 @@
+{
+ "source": "https://b2b.hmz.nl/en/lemon-soda-lemon-soda-itee-t-shirt/<code>.html",
+ "iconPath": "/care-icons/",
+ "icons": {
+  "bleach_2.png": "Do not bleach",
+  "bleach_4.png": "Do not bleach with chlorine",
+  "drying_1.png": "Tumble dry at low temperature",
+  "drying_2.png": "Tumble dry",
+  "drying_3.png": "Do not tumble dry",
+  "ironing_1.png": "Ironing maximum 110 degrees",
+  "ironing_2.png": "Ironing maximum 150 degrees",
+  "ironing_4.png": "Do not iron",
+  "professional_cleaning_3.png": "Do not dry clean",
+  "washing_1.png": "Maximum 30 degrees",
+  "washing_3.png": "Maximum 40 degrees",
+  "washing_5.png": "Maximum 60 degrees"
+ },
+ "styles": {
+  "LEM1111": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1130": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1135": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1205": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1262": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1264": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1265": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1267": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1268": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1269": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1270": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM1275": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3200": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3210": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3213": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3225": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3229": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3231": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3234": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3236": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_3.png"
+  ],
+  "LEM3270": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3276": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3350": [
+   "drying_1.png",
+   "bleach_2.png",
+   "ironing_4.png",
+   "professional_cleaning_3.png",
+   "washing_1.png"
+  ],
+  "LEM3355": [
+   "drying_1.png",
+   "bleach_2.png",
+   "ironing_4.png",
+   "professional_cleaning_3.png",
+   "washing_1.png"
+  ],
+  "LEM3500": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_5.png"
+  ],
+  "LEM3503": [
+   "drying_2.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_3.png"
+  ],
+  "LEM3505": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3510": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3511": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_5.png"
+  ],
+  "LEM3535": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3570": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3572": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3574": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3576": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3627": [
+   "drying_3.png",
+   "bleach_2.png",
+   "ironing_4.png",
+   "professional_cleaning_3.png",
+   "washing_1.png"
+  ],
+  "LEM3629": [
+   "drying_3.png",
+   "bleach_2.png",
+   "ironing_4.png",
+   "professional_cleaning_3.png",
+   "washing_1.png"
+  ],
+  "LEM3770": [
+   "drying_3.png",
+   "bleach_2.png",
+   "ironing_4.png",
+   "professional_cleaning_3.png",
+   "washing_1.png"
+  ],
+  "LEM3923": [
+   "drying_3.png",
+   "ironing_1.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_5.png"
+  ],
+  "LEM3925": [
+   "drying_3.png",
+   "ironing_1.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_5.png"
+  ],
+  "LEM3932": [
+   "drying_1.png",
+   "ironing_1.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM3935": [
+   "drying_1.png",
+   "ironing_1.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4500": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4501": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_5.png"
+  ],
+  "LEM4504": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_3.png"
+  ],
+  "LEM4510": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_3.png"
+  ],
+  "LEM4600": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_5.png"
+  ],
+  "LEM4601": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_5.png"
+  ],
+  "LEM4602": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4604": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4608": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4610": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4700": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4701": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_5.png"
+  ],
+  "LEM4725": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4732": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4748": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4750": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4751": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "professional_cleaning_3.png",
+   "washing_5.png"
+  ],
+  "LEM4762": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4768": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4772": [
+   "drying_3.png",
+   "ironing_2.png",
+   "bleach_2.png",
+   "washing_3.png"
+  ],
+  "LEM4800": [
+   "drying_3.png",
+   "bleach_2.png",
+   "ironing_4.png",
+   "professional_cleaning_3.png",
+   "washing_1.png"
+  ],
+  "LEM4827": [
+   "drying_3.png",
+   "bleach_2.png",
+   "ironing_4.png",
+   "professional_cleaning_3.png",
+   "washing_1.png"
+  ],
+  "LEM4829": [
+   "drying_3.png",
+   "bleach_2.png",
+   "ironing_4.png",
+   "professional_cleaning_3.png",
+   "washing_1.png"
+  ],
+  "LEM4855": [
+   "drying_3.png",
+   "ironing_4.png",
+   "bleach_4.png",
+   "washing_1.png"
+  ]
+ }
+}
