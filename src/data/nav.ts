@@ -45,7 +45,6 @@ export const MENU_EVERYWEAR: NavLink = {
 
 export const DRAWER_PRIMARY = [
   { label: "Catalogue", href: "/catalogue" },
-  { label: "Sustainability", href: "#" },
 ];
 
 export const DRAWER_TRADE = ["Register account"];
