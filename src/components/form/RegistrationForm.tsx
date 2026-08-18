@@ -229,7 +229,7 @@ export default function RegistrationForm({ contactEmail = "info.uk@lemon-soda.eu
               <input type="checkbox" name="confirm" required />
               <span className={CONSENT_TEXT}>
                 By submitting this form I agree and consent to the{" "}
-                <a href="#">Terms and Conditions</a>
+                <a href="https://drive.google.com/file/d/1wbNswGZUtZhpX_3itOkXd0e4jzW8eNjP/view?usp=sharing" target="_blank" rel="noopener noreferrer">Terms and Conditions</a>
               </span>
             </label>
             <p className={RESPONSE_NOTE}>
