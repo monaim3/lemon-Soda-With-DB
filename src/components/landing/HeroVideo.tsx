@@ -21,9 +21,10 @@ export default function HeroVideo({ src, className }: { src: string; className?:
     el.setAttribute("webkit-playsinline", "");
 
     const ok = () => setReady(true);
+    const onError = () => setReady(false);
     const events = ["loadeddata", "canplay", "playing"] as const;
     events.forEach((e) => el.addEventListener(e, ok));
-    el.addEventListener("error", () => setReady(false));
+    el.addEventListener("error", onError);
 
     const reduce = window.matchMedia?.("(prefers-reduced-motion: reduce)").matches;
     if (reduce) {
@@ -39,7 +40,10 @@ export default function HeroVideo({ src, className }: { src: string; className?:
       el.addEventListener("canplay", play, { once: true });
     }
 
-    return () => events.forEach((e) => el.removeEventListener(e, ok));
+    return () => {
+      events.forEach((e) => el.removeEventListener(e, ok));
+      el.removeEventListener("error", onError);
+    };
   }, []);
 
   return (

@@ -28,6 +28,13 @@ export default function SiteHeader({ blur = false }: { blur?: boolean }) {
     return () => window.removeEventListener("keydown", onKey);
   }, [search, menu, account]);
 
+  useEffect(() => {
+    return () => {
+      if (timer.current) clearTimeout(timer.current);
+      if (accountTimer.current) clearTimeout(accountTimer.current);
+    };
+  }, []);
+
   const openSearch = (e: React.MouseEvent) => {
     e.preventDefault();
     if (timer.current) clearTimeout(timer.current);

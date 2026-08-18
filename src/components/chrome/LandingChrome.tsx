@@ -43,6 +43,13 @@ export default function LandingChrome() {
     return () => window.removeEventListener("keydown", onKey);
   }, [drawer, search, menu, account]);
 
+  useEffect(() => {
+    return () => {
+      if (timer.current) clearTimeout(timer.current);
+      if (accountTimer.current) clearTimeout(accountTimer.current);
+    };
+  }, []);
+
   const openSearch = (e: React.MouseEvent) => {
     e.preventDefault();
     if (window.scrollY < 90) window.scrollTo({ top: 120, behavior: "smooth" });
