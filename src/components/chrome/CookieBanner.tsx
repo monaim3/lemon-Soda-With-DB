@@ -43,7 +43,7 @@ export default function CookieBanner() {
       <p style={{ margin: 0, flex: 1, color: "rgba(244,242,237,0.84)" }}>
         We use cookies to give you the best experience on our site. By continuing to browse, you agree to our use of cookies.{" "}
         <a
-          href="https://drive.google.com/file/d/10TaaTX-_XgpGVVJf7kHXgSvDHVER1ecH/view?usp=sharing"
+          href="/pdf/Lemon-and-Soda-UK-Cookie-Policy.pdf"
           target="_blank"
           rel="noopener noreferrer"
           style={{ color: "var(--paper)", textDecoration: "underline", textUnderlineOffset: "2px" }}
