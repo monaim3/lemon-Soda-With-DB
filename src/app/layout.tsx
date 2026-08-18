@@ -15,8 +15,8 @@ const bodoniModa = Bodoni_Moda({
 });
 
 export const metadata: Metadata = {
-  title: "Lemon & Soda UK — Trade Portal",
-  description: "The art of the essential. Workwear, Originals, Deluxe and Private Label since 1979.",
+  title: "Lemon & Soda UK",
+  description: "Lemon & Soda delivers premium apparel for the quality-conscious. Discover sustainable, stylish workwear collections designed to elevate your brand",
 };
 
 export default function RootLayout({ children }: LayoutProps<"/">) {
