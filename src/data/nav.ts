@@ -45,11 +45,10 @@ export const MENU_EVERYWEAR: NavLink = {
 
 export const DRAWER_PRIMARY = [
   { label: "Catalogue", href: "/catalogue" },
-  { label: "Our Story", href: "#" },
   { label: "Sustainability", href: "#" },
 ];
 
-export const DRAWER_TRADE = ["Find dealers", "Register account", "Marketing Resources"];
+export const DRAWER_TRADE = ["Register account"];
 
 export const ACCENTS = ["#5B87A6", "#E0B02A", "#35507E", "#8E4249"];
 

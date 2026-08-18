@@ -490,7 +490,7 @@ export default function ProductClient({ style }: { style: Style }) {
                           </div>
                         ))}
 
-                        <div className={ORDER_FOOT}>
+                        <div className={`${ORDER_FOOT} hidden`}>{/* TODO: unhide when order flow ready */}
                           <span className={ORDER_TOTALS}>
                             <span className={ORDER_UNITS}>{orderUnits === 1 ? "1 piece" : `${orderUnits} pieces`}</span>
                             <span className={ORDER_VALUE}>{orderValue === null ? "—" : formatPrice(orderValue)}</span>

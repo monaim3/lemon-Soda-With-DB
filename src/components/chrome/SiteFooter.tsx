@@ -16,7 +16,7 @@ const COL = "flex flex-col gap-4";
 
 export default function SiteFooter() {
   return (
-    <footer className="bg-ink text-paper px-gutter pt-[clamp(36px,4vw,56px)] pb-0 border-t border-t-on-dark-14">
+    <footer id="site-footer" className="bg-ink text-paper px-gutter pt-[clamp(36px,4vw,56px)] pb-0 border-t border-t-on-dark-14">
       <div className="grid grid-cols-[minmax(280px,1.3fr)_1fr_1fr_0.8fr] gap-[clamp(28px,3.4vw,56px)] pb-[clamp(32px,3.6vw,48px)] max-[1039px]:grid-cols-2 max-[759px]:grid-cols-1">
         <div className={COL}>
           <span className={HEADING}>Contact</span>

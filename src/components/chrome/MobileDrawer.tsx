@@ -72,9 +72,18 @@ export default function MobileDrawer({
               </a>
             ))}
           </div>
-          <a href="#" className="self-start mt-auto mb-[clamp(32px,4vw,48px)] pb-[5px] border-b border-b-[rgba(18,18,17,0.25)] text-[11px] tracking-[0.2em] uppercase font-medium text-muted-62 transition-[border-color,color] duration-[400ms] ease-[ease] hover:text-ink hover:border-b-ink">
+          <button
+            type="button"
+            onClick={() => {
+              onClose();
+              setTimeout(() => {
+                document.getElementById("site-footer")?.scrollIntoView({ behavior: "smooth" });
+              }, 560);
+            }}
+            className="self-start mt-auto mb-[clamp(32px,4vw,48px)] pb-[5px] border-b border-b-[rgba(18,18,17,0.25)] text-[11px] tracking-[0.2em] uppercase font-medium text-muted-62 transition-[border-color,color] duration-[400ms] ease-[ease] hover:text-ink hover:border-b-ink"
+          >
             Contact Us
-          </a>
+          </button>
         </nav>
         <div className="grid grid-cols-4 w-[calc(100%+1px)] -mr-px">
           {ACCENTS.map((c) => (
