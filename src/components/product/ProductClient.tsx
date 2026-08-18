@@ -457,9 +457,9 @@ export default function ProductClient({ style }: { style: Style }) {
                           <span className={ORDER_HEAD_CELL} style={{ textAlign: "right" }}>
                             Price
                           </span>
-                          <span className={ORDER_HEAD_CELL} style={{ textAlign: "right" }}>
+                          {/* <span className={ORDER_HEAD_CELL} style={{ textAlign: "right" }}>
                             Qty
-                          </span>
+                          </span> */}
                         </div>
 
                         {orderRows.map((r, i) => (
@@ -469,24 +469,7 @@ export default function ProductClient({ style }: { style: Style }) {
                               {stock?.[r.sku] === undefined ? "—" : stock[r.sku].toLocaleString("en-GB")}
                             </span>
                             <span className={NUM_CELL}>{unitPrice === null ? "—" : formatPrice(unitPrice)}</span>
-                            <span className={QTY_CELL_WRAP}>
-                              <input
-                                type="number"
-                                min={0}
-                                value={qty[r.sku] || ""}
-                                onChange={(e) => setQtyFor(r.sku, e.target.value)}
-                                placeholder="0"
-                                aria-label={`Quantity, size ${r.size}`}
-                                className={QTY_INPUT}
-                                style={{ borderColor: i === 0 && qtyError ? "#8E4249" : "rgba(18,18,17,0.22)" }}
-                              />
-                              {i === 0 && qtyError && (
-                                <span className={QTY_ERROR} role="status">
-                                  Enter quantity
-                                  <span className={QTY_ERROR_ARROW} />
-                                </span>
-                              )}
-                            </span>
+                            {/* QTY input hidden temporarily */}
                           </div>
                         ))}
 

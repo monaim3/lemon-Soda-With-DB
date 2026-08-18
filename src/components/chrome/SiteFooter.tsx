@@ -36,18 +36,12 @@ export default function SiteFooter() {
         </div>
         <div className={COL}>
           <span className={HEADING}>Dealers</span>
-          <a href="#" className={LINK}>
-            Find dealers
-          </a>
           <Link href="/register" className={LINK}>
             Register account
           </Link>
           <Link href="/sign-in" className={LINK}>
             Dealer login
           </Link>
-          <a href="#" className={LINK}>
-            Download catalogue
-          </a>
         </div>
         <div className={COL}>
           <span className={HEADING}>Legal</span>
