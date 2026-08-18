@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Jost, Bodoni_Moda } from "next/font/google";
 import "./globals.css";
+import CookieBanner from "@/components/chrome/CookieBanner";
 
 const jost = Jost({
   variable: "--font-jost",
@@ -32,7 +33,10 @@ export default function RootLayout({ children }: LayoutProps<"/">) {
     >
       {/* Browser extensions (Grammarly et al) inject attributes into <body> before
           React hydrates, which otherwise logs a hydration mismatch. */}
-      <body suppressHydrationWarning>{children}</body>
+      <body suppressHydrationWarning>
+        {children}
+        <CookieBanner />
+      </body>
     </html>
   );
 }
