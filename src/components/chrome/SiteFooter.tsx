@@ -51,13 +51,13 @@ export default function SiteFooter() {
         </div>
         <div className={COL}>
           <span className={HEADING}>Legal</span>
-          <a href="#" className={LINK}>
+          <a href="https://drive.google.com/file/d/1wbNswGZUtZhpX_3itOkXd0e4jzW8eNjP/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={LINK}>
             Terms &amp; conditions
           </a>
-          <a href="#" className={LINK}>
+          <a href="https://drive.google.com/file/d/1ojs0cnhrolsOkm2b39EKKYmQwgHw1cM4/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={LINK}>
             Privacy policy
           </a>
-          <a href="#" className={LINK}>
+          <a href="https://drive.google.com/file/d/10TaaTX-_XgpGVVJf7kHXgSvDHVER1ecH/view?usp=sharing" target="_blank" rel="noopener noreferrer" className={LINK}>
             Cookies
           </a>
         </div>
